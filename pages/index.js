@@ -9,7 +9,6 @@ export const databaseBlogPostsId = process.env.NOTION_BLOG_POSTSDATABASE_ID;
 export const databasePreviousWorkId = process.env.NOTION_PREVIOUS_WORK_POSTSDATABASE_ID;
 
 export default function Home({ posts, works }) {
-  console.log(works)
   return (
     <div>
       <Head>
