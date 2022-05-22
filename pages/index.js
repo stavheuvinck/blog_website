@@ -118,6 +118,13 @@ export default function Home({ posts, works }) {
             );
           })}
         </ol>
+        <h2>UDCP</h2>
+        <p>My UDCP is about training an AI model with SageMaker. With Amazon AWS, we can easily train the model with SageMaker. Through AWS Lambda, we can then plug data directly into the model for prediction and return the result. Next, we can also attach an API call to the lambda function, in order to provide data through an application and easily claim the model directly. Be careful with the charging because once your model is online it starts running and does not shut down after inactivity, so after a few weeks you may already have to pay a reasonable amount.</p>
+        <figure>
+          <div className={styles.file}>
+            <a href="public\Heuvinck_Stav_UDCP.pdf">📎 Heuvinck_Stav_UDCP </a>
+          </div>
+        </figure>
       </main>
     </div>
   );
